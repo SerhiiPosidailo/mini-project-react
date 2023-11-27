@@ -4,7 +4,7 @@ import {useAppDispatch, useAppSelrctyor} from "../hooks/reduxHooks";
 import {moviesActions} from "../redux/slices/moviesSlice";
 import {Movies} from "../components/MoviesConteiner/Movies/Movies";
 
-const MoviesPage:React.FC = () => {
+const MoviesPage: React.FC = () => {
     const [query, setQuery] = useSearchParams({page: '1'});
     const page = query.get('page') || '1'
     const dispatch = useAppDispatch();
@@ -14,10 +14,11 @@ const MoviesPage:React.FC = () => {
         dispatch(moviesActions.getMovies({page}))
     }, [page, dispatch]);
 
+
     return (
-        <div>
-            <Movies movies={movies} setQuery={setQuery} page={page} maxPage={total_pages}/>
-        </div>
+            <div>
+                <Movies movies={movies} setQuery={setQuery} page={page} maxPage={total_pages}/>
+            </div>
     );
 };
 
