@@ -1,0 +1,27 @@
+.Movie {
+    width: calc(20% - 2px);
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: #f35656 5px 5px 5px;
+    border-radius: 25px;
+}
+
+.Movie  img{
+    width: 15vw;
+    border-radius: 25px;
+}
+
+.Movie p {
+    text-align: center;
+}
+.Movie h3{
+    text-align: center;
+}
+
+.rating {
+    display: flex;
+    margin-top: 10px;
+}

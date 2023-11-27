@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import {useSearchParams} from "react-router-dom";
 import {useAppDispatch, useAppSelrctyor} from "../hooks/reduxHooks";
 import {moviesActions} from "../redux/slices/moviesSlice";
-import {Movies} from "../components/Movies/Movies";
+import {Movies} from "../components/MoviesConteiner/Movies/Movies";
 
 const MoviesPage:React.FC = () => {
     const [query, setQuery] = useSearchParams({page: '1'});
