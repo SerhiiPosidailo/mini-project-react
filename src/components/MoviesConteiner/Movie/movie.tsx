@@ -16,7 +16,7 @@ const Movie: FC<IProps> = ({movie}) => {
 
     return (
         <div className={css.Movie} onClick={() => navigate(`${movie.id}`, {state: movie})}>
-            <img src={urls.poster(`${poster_path}`)} alt={original_title}/>
+            <img src={urls.poster(poster_path)} alt={original_title}/>
             <div className={css.rating}>
                 <Rating
                     iconsCount={10}

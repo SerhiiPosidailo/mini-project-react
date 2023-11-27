@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3a4e144-bfe7-47dd-901e-d3b66e34cc8a" name="Changes" comment="movies movie css">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MoviesPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MoviesPage.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="a3a4e144-bfe7-47dd-901e-d3b66e34cc8a" name="Changes" comment="paginator, button, cssButton" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +88,7 @@
       <workItem from="1700810348804" duration="9000" />
       <workItem from="1700810432745" duration="345000" />
       <workItem from="1701066359950" duration="8572000" />
-      <workItem from="1701075084460" duration="299000" />
+      <workItem from="1701075084460" duration="587000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -133,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701074957417</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="paginator, button, cssButton">
+      <option name="closed" value="true" />
+      <created>1701075674019</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701075674019</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +149,7 @@
     <MESSAGE value="header, redux, service, interface," />
     <MESSAGE value="movies" />
     <MESSAGE value="movies movie css" />
-    <option name="LAST_COMMIT_MESSAGE" value="movies movie css" />
+    <MESSAGE value="paginator, button, cssButton" />
+    <option name="LAST_COMMIT_MESSAGE" value="paginator, button, cssButton" />
   </component>
 </project>

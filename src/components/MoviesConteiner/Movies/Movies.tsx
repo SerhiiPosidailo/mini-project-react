@@ -3,7 +3,7 @@ import {IMovie} from "../../../interface/interfaceMovies";
 import {SetURLSearchParams} from "react-router-dom";
 import {Movie} from "../Movie/movie";
 import css from "./Movies.module.css"
-import {useAppSelrctyor} from "../../../hooks/reduxHooks";
+import {useAppSelector} from "../../../hooks/reduxHooks";
 
 interface IProps extends PropsWithChildren {
     movies: IMovie[]
@@ -13,7 +13,7 @@ interface IProps extends PropsWithChildren {
 }
 
 const Movies: FC<IProps> = ({movies, setQuery, page, maxPage}) => {
-    const {total_pages} = useAppSelrctyor(state => state.movies);
+    const {total_pages} = useAppSelector(state => state.movies);
 
     const handlePagePrev = (): void => {
         setQuery(prev => {
