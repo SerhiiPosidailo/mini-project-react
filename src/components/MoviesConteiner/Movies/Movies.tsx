@@ -9,11 +9,12 @@ interface IProps extends PropsWithChildren {
     movies: IMovie[]
     setQuery: SetURLSearchParams
     page: string
-    maxPage: number
+
 }
 
-const Movies: FC<IProps> = ({movies, setQuery, page, maxPage}) => {
+const Movies: FC<IProps> = ({movies, setQuery, page}) => {
     const {total_pages} = useAppSelector(state => state.movies);
+
 
     const handlePagePrev = (): void => {
         setQuery(prev => {

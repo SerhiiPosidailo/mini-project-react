@@ -8,7 +8,7 @@ const MoviesPage: React.FC = () => {
     const [query, setQuery] = useSearchParams({page: '1'});
     const page = query.get('page') || '1'
     const dispatch = useAppDispatch();
-    const {movies, total_pages} = useAppSelector(state => state.movies);
+    const {movies} = useAppSelector(state => state.movies);
 
     useEffect(() => {
         dispatch(moviesActions.getMovies({page}))
@@ -17,7 +17,7 @@ const MoviesPage: React.FC = () => {
 
     return (
         <div>
-            <Movies movies={movies} setQuery={setQuery} page={page} maxPage={total_pages}/>
+            <Movies movies={movies} setQuery={setQuery} page={page}/>
         </div>
     );
 };

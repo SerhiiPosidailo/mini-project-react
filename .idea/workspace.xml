@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3a4e144-bfe7-47dd-901e-d3b66e34cc8a" name="Changes" comment="genre">
-      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genre/Genre.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genres/Genres.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MovieByGenre/MovieByGenre/MovieByGenre.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MovieByGenre/MovieByGenre/movieBygenre.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MovieByGenre/MoviesByGenres/MoviesByGenres.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MoviesConteiner/movieInfo/movieInfo.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/moviesInfoService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/Genre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genre/Genre.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/Genres.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genres/Genres.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesConteiner/Movie/movie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesConteiner/Movie/movie.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesConteiner/movieInfo/movieInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesConteiner/movieInfo/movieInfo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/urls.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/urls.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interface/interfaceMovies.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interface/interfaceMovies.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/GenresIdPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/GenresIdPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/GenresPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/GenresPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MovieInfoPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MovieInfoPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/slices/moviesSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/moviesSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/genreServica.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/genreServica.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/moviesService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/moviesService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-    </list>
+    <list default="true" id="a3a4e144-bfe7-47dd-901e-d3b66e34cc8a" name="Changes" comment="genres navigata &#10;genres style&#10;movie Details" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +94,7 @@
       <workItem from="1701077216300" duration="5882000" />
       <workItem from="1701102021119" duration="194000" />
       <workItem from="1701152828253" duration="3191000" />
-      <workItem from="1701156080522" duration="6746000" />
+      <workItem from="1701156080522" duration="7124000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -174,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701083157144</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="genres navigata &#10;genres style&#10;movie Details">
+      <option name="closed" value="true" />
+      <created>1701164080716</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701164080716</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +173,7 @@
     <MESSAGE value="movies movie css" />
     <MESSAGE value="paginator, button, cssButton" />
     <MESSAGE value="genre" />
-    <option name="LAST_COMMIT_MESSAGE" value="genre" />
+    <MESSAGE value="genres navigata &#10;genres style&#10;movie Details" />
+    <option name="LAST_COMMIT_MESSAGE" value="genres navigata &#10;genres style&#10;movie Details" />
   </component>
 </project>

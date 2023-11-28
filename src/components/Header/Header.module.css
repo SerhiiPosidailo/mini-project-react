@@ -63,7 +63,7 @@ body{
     display: inline-block;
     width: 60px;
     height: 34px;
-    background-color: #363636;
+    background-color: #151515;
 }
 
 
@@ -87,7 +87,7 @@ body{
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: cyan;
+    background-color: #0bf88d;
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 25px;
