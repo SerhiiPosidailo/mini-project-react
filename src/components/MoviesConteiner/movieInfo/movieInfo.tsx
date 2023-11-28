@@ -9,8 +9,7 @@ const MovieInfo = () => {
 
     const {movieById} = useAppSelector(state => state.movies);
 
-    const {original_title,poster_path,vote_average,release_date,overview} = movieById;
-
+    const {original_title,poster_path,vote_average,release_date,overview, popularity,backdrop_path} = movieById;
 
     return (
         <div className={css.MovieInfo}>
@@ -27,7 +26,10 @@ const MovieInfo = () => {
                 SVGstrokeColor={'black'}
                 emptyColor={'#808080FF'}
             />
+            <div><h1>Popularity :</h1><b>{popularity}</b></div>
             <div><h1>Release Data :</h1><b>{release_date}</b></div>
+            <h1>Backdrop Path :</h1>
+            <img src={urls.poster(backdrop_path)} alt={original_title}/>
         </div>
     );
 };

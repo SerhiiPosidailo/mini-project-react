@@ -19,3 +19,8 @@
     margin-left: 40px;
     font-size: 20px;
 }
+
+h1 {
+    text-shadow: red 1px 1px 1px;
+}
+
