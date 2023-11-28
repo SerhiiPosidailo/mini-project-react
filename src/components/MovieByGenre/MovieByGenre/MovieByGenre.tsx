@@ -1,22 +1,21 @@
 import React, {FC} from 'react';
 import {IMovie} from "../../../interface/interfaceMovies";
-import {urls} from "../../../constants/urls";
 import {Rating} from "react-simple-star-rating";
-import css from "./Movie.module.css"
 import {useNavigate} from "react-router-dom";
-
+import css from "./movieBygenre.module.css"
 
 interface IProps {
     movie: IMovie
 }
 
-const Movie: FC<IProps> = ({movie}) => {
-    const {original_title, poster_path, vote_average} = movie;
-    const navigate = useNavigate()
+const MovieByGenre:FC<IProps> = ({movie}) => {
+
+    const {original_title,vote_average,poster_path} = movie;
+    const navigate = useNavigate();
 
     return (
-        <div className={css.Movie} onClick={() => navigate(`${movie.id}`, {state: movie})}>
-            <img src={urls.poster(poster_path)} alt={original_title}/>
+        <div className={css.GenresIdMovie} onClick={()=>navigate(`/movies/${movie.id}`)}>
+            <img src={`https://image.tmdb.org/t/p/w500/${poster_path}`} alt={original_title}/>
             <div className={css.rating}>
                 <Rating
                     iconsCount={10}
@@ -32,4 +31,4 @@ const Movie: FC<IProps> = ({movie}) => {
     );
 };
 
-export {Movie};
+export {MovieByGenre};

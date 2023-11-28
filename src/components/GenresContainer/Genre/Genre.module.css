@@ -1,0 +1,13 @@
+.Genre {
+    width: calc(25% - 2px);
+    text-align: center;
+    margin-top: 5%;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px;
+    cursor: pointer;
+}
+
+.Genre a{
+    text-decoration: none;
+    color: black;
+}

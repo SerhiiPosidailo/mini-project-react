@@ -10,7 +10,7 @@ const character = '/movie';
 const urls = {
     movies,
     genre,
-    byId: (id: string): string => `/movie/${id}`,
+    byId: (id: string):string => `${character}/${id}`,
     poster: (key: string)=> `${poster}${key}`,
     search:(key:string)=>`/search/movie?query=${key}`,
     character:(id: number) => `${character}/${id}/credits`,
