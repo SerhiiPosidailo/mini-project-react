@@ -3,7 +3,7 @@
     text-align: center;
     margin-top: 5%;
     font-size: 30px;
-    text-shadow: 1px 1px 1px;
+    text-shadow: red 1px 1px 1px;
     cursor: pointer;
 }
 

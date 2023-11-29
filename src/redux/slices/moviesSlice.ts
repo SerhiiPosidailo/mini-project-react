@@ -10,19 +10,19 @@ interface IState {
     total_pages: number,
     movies: IMovie[],
     moviesByGenres: IMovie[],
-    genres:IGanre[],
+    genres: IGanre[],
     movieById: IMovie,
 }
 
 const initialState: IState = {
-    total_pages: 500,
-    movies:[],
+    total_pages: 500 || null,
+    movies: [],
     moviesByGenres: [],
     genres: [],
     movieById: null,
 };
 
-const getMovies = createAsyncThunk<IMovies, { page: string}>(
+const getMovies = createAsyncThunk<IMovies, { page: string }>(
     'moviesSlice/getMovies',
     async ({page}, {rejectWithValue}) => {
         try {
@@ -35,7 +35,7 @@ const getMovies = createAsyncThunk<IMovies, { page: string}>(
     }
 )
 
-const getMovieById = createAsyncThunk<IMovie, {id: string}>(
+const getMovieById = createAsyncThunk<IMovie, { id: string }>(
     'moviesSlice/getMovieById',
     async ({id}, {rejectWithValue}) => {
         try {
@@ -60,13 +60,25 @@ const getGenres = createAsyncThunk<IGanres<IGanre>, void>(
     }
 )
 
-const getMoviesByGenre = createAsyncThunk<IMovies, {id:string, page:string}>(
+const getMoviesByGenre = createAsyncThunk<IMovies, { id: string, page: string }>(
     'moviesSlice/getMovieByGenre',
-    async ({id, page}, {rejectWithValue}) =>{
+    async ({id, page}, {rejectWithValue}) => {
         try {
             const {data} = await genresService.getMovieById(id, page);
             return data
-        }catch (e) {
+        } catch (e) {
+            const err = e as AxiosError
+            return rejectWithValue(err.response?.data)
+        }
+    }
+)
+const searchMovies = createAsyncThunk<IMovies, { page: string, query: string }>(
+    'moviesSlice/getMoviesByKeyWord',
+    async ({query, page}, {rejectWithValue}) => {
+        try {
+            const {data} = await moviesService.getMoviesQuery(query, page)
+            return data
+        } catch (e) {
             const err = e as AxiosError
             return rejectWithValue(err.response?.data)
         }
@@ -75,9 +87,9 @@ const getMoviesByGenre = createAsyncThunk<IMovies, {id:string, page:string}>(
 
 
 const moviesSlice = createSlice({
-    name:'moviesSlice',
+    name: 'moviesSlice',
     initialState,
-    reducers:{},
+    reducers: {},
     extraReducers: builder =>
         builder
             .addCase(getMovies.fulfilled, (state, action) => {
@@ -86,26 +98,27 @@ const moviesSlice = createSlice({
                 state.total_pages = total_pages
             })
             .addCase(getMovieById.fulfilled, (state, action) => {
-                  state.movieById = action.payload
+                state.movieById = action.payload
             })
             .addCase(getGenres.fulfilled, (state, action) => {
                 state.genres = action.payload.genres
             })
-            .addMatcher(isFulfilled(getMovies, getMoviesByGenre), (state, action) => {
+            .addMatcher(isFulfilled(getMovies, getMoviesByGenre, searchMovies), (state, action) => {
                 const {total_pages, results} = action.payload
                 state.movies = results
                 state.total_pages = total_pages
             })
 });
 
-const {reducer:moviesReducer, actions} = moviesSlice;
+const {reducer: moviesReducer, actions} = moviesSlice;
 
 const moviesActions = {
     ...actions,
     getMovies,
     getGenres,
     getMovieById,
-    getMoviesByGenre
+    getMoviesByGenre,
+    searchMovies
 
 }
 

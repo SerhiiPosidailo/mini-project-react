@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3a4e144-bfe7-47dd-901e-d3b66e34cc8a" name="Changes" comment="genres navigata &#10;genres style&#10;movie Details" />
+    <list default="true" id="a3a4e144-bfe7-47dd-901e-d3b66e34cc8a" name="Changes" comment="switcher">
+      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/MovieInfoGenre/MovieInfoGenre.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/MovieInfoGenre/MovieInfoGenre.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/Search/Search.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/Search/Search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/Searches/Searches.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/Searches/Searches.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/Genre/Genre.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genre/Genre.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesConteiner/movieInfo/movieInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesConteiner/movieInfo/movieInfo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesConteiner/movieInfo/movieInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesConteiner/movieInfo/movieInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface/interfaceMovies.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interface/interfaceMovies.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SearchPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SearchPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/slices/moviesSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/moviesSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/moviesService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/moviesService.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,6 +112,9 @@
       <workItem from="1701102021119" duration="194000" />
       <workItem from="1701152828253" duration="3191000" />
       <workItem from="1701156080522" duration="7124000" />
+      <workItem from="1701164501729" duration="5445000" />
+      <workItem from="1701187450505" duration="325000" />
+      <workItem from="1701239188589" duration="9774000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -160,7 +180,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701164080716</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="switcher them">
+      <option name="closed" value="true" />
+      <created>1701165823720</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701165823720</updated>
+    </task>
+    <task id="LOCAL-00010" summary="switcher">
+      <option name="closed" value="true" />
+      <created>1701169404028</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701169404028</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +210,8 @@
     <MESSAGE value="paginator, button, cssButton" />
     <MESSAGE value="genre" />
     <MESSAGE value="genres navigata &#10;genres style&#10;movie Details" />
-    <option name="LAST_COMMIT_MESSAGE" value="genres navigata &#10;genres style&#10;movie Details" />
+    <MESSAGE value="switcher them" />
+    <MESSAGE value="switcher" />
+    <option name="LAST_COMMIT_MESSAGE" value="switcher" />
   </component>
 </project>

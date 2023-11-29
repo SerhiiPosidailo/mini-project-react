@@ -1,3 +1,5 @@
+import {IGanre} from "./interfaceGanre";
+
 export interface IMovies {
     prev:number,
     next:number,
@@ -22,4 +24,5 @@ export interface IMovie {
     video: boolean;
     vote_average: number;
     vote_count: number;
+    genres:IGanre[]
 }
