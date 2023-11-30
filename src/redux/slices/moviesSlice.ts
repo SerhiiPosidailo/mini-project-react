@@ -15,7 +15,7 @@ interface IState {
 }
 
 const initialState: IState = {
-    total_pages: 500 || null,
+    total_pages: 500,
     movies: [],
     moviesByGenres: [],
     genres: [],
@@ -92,18 +92,21 @@ const moviesSlice = createSlice({
     reducers: {},
     extraReducers: builder =>
         builder
-            .addCase(getMovies.fulfilled, (state, action) => {
-                const {total_pages, results} = action.payload
-                state.movies = results
-                state.total_pages = total_pages
-            })
+
             .addCase(getMovieById.fulfilled, (state, action) => {
                 state.movieById = action.payload
             })
+
             .addCase(getGenres.fulfilled, (state, action) => {
                 state.genres = action.payload.genres
             })
-            .addMatcher(isFulfilled(getMovies, getMoviesByGenre, searchMovies), (state, action) => {
+
+            .addMatcher(isFulfilled(getMoviesByGenre, getMovies), (state, action) => {
+                const {results} = action.payload
+                state.movies = results
+            })
+
+            .addMatcher(isFulfilled(searchMovies), (state, action) => {
                 const {total_pages, results} = action.payload
                 state.movies = results
                 state.total_pages = total_pages
