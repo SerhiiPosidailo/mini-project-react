@@ -1,105 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3a4e144-bfe7-47dd-901e-d3b66e34cc8a" name="Changes" comment="fix moviesSlice.ts">
-      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genre/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genres/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/MovieInfoGenre/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GenresContainer/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MovieByGenre/MovieByGenre/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MovieByGenre/MoviesByGenres/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MovieByGenre/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MoviesConteiner/Movie/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MoviesConteiner/Movies/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MoviesConteiner/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MoviesConteiner/movieInfo/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Search/Search/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Search/Searches/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Search/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SearchForm/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/slices/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/Genre/Genre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genre/Genre.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/Genres/Genres.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/Genres/Genres.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GenresContainer/MovieInfoGenre/MovieInfoGenre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenresContainer/MovieInfoGenre/MovieInfoGenre.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MovieByGenre/MovieByGenre/MovieByGenre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieByGenre/MovieByGenre/MovieByGenre.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MovieByGenre/MoviesByGenres/MoviesByGenres.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieByGenre/MoviesByGenres/MoviesByGenres.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesConteiner/Movie/movie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesConteiner/Movie/movie.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesConteiner/Movies/Movies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesConteiner/Movies/Movies.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesConteiner/movieInfo/movieInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesConteiner/movieInfo/movieInfo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Search/Search/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search/Search/Search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Search/Searches/Searches.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search/Searches/Searches.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/urls.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/urls.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/reduxHooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/reduxHooks.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/MainLayouts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/MainLayouts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/GenresIdPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/GenresIdPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/GenresPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/GenresPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MovieInfoPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MovieInfoPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MoviesPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MoviesPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SearchPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SearchPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/slices/moviesSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/moviesSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/apiService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/apiService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/genreServica.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/genreServica.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/moviesInfoService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/moviesInfoService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/moviesService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/moviesService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/reduxType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/reduxType.ts" afterDir="false" />
+    <list default="true" id="3e599426-4ca1-473c-84a7-f96a91cd3a51" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="TypeScript JSX File" />
-        <option value="CSS File" />
-        <option value="TypeScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;SerhiiPosidailo&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="bf35bb14-9daa-468a-a914-5ab4c8f86bfd" />
-        <option name="url" value="https://github.com/SerhiiPosidailo/mini-project-react.git" />
-      </UrlAndAccount>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="2YbxW59crLgS7jW00doCBhVwwwL" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2Yw14Uv8NM8NEHaodeRz2EZnbQp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -111,191 +33,23 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "js.last.introduce.type": "CONST",
-    "last_opened_file_path": "C:/Users/Notebook/IdeaProjects/mini-project-react/src/components/Search/Searches",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
-    "ts.external.directory.path": "C:\\Users\\Notebook\\IdeaProjects\\mini-project-react\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Notebook\IdeaProjects\mini-project-react\src\components\Search\Searches" />
-      <recent name="C:\Users\Notebook\IdeaProjects\mini-project-react\src\components\Search\Search" />
-      <recent name="C:\Users\Notebook\IdeaProjects\mini-project-react\src\components\MoviesConteiner\Movies" />
-      <recent name="C:\Users\Notebook\IdeaProjects\mini-project-react\src\components\MoviesConteiner\movieInfo" />
-      <recent name="C:\Users\Notebook\IdeaProjects\mini-project-react\src\components\MoviesConteiner\Movie" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Notebook\IdeaProjects\mini-project-react\src\components\GenresContainer\Genre" />
-      <recent name="C:\Users\Notebook\IdeaProjects\mini-project-react\src\components\GenresContainer\Genres" />
-      <recent name="C:\Users\Notebook\IdeaProjects\mini-project-react\src\components\MoviesConteiner\Movie" />
-      <recent name="C:\Users\Notebook\IdeaProjects\mini-project-react\src\components\MoviesConteiner\Movies" />
-      <recent name="C:\Users\Notebook\IdeaProjects\mini-project-react\src" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a3a4e144-bfe7-47dd-901e-d3b66e34cc8a" name="Changes" comment="" />
-      <created>1700808108806</created>
+      <changelist id="3e599426-4ca1-473c-84a7-f96a91cd3a51" name="Changes" comment="" />
+      <created>1701421637186</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1700808108806</updated>
-      <workItem from="1700808109959" duration="25000" />
-      <workItem from="1700808137292" duration="14000" />
-      <workItem from="1700808154117" duration="2000" />
-      <workItem from="1700808167930" duration="1924000" />
-      <workItem from="1700810118946" duration="197000" />
-      <workItem from="1700810348804" duration="9000" />
-      <workItem from="1700810432745" duration="345000" />
-      <workItem from="1701066359950" duration="8572000" />
-      <workItem from="1701075084460" duration="587000" />
-      <workItem from="1701077216300" duration="5882000" />
-      <workItem from="1701102021119" duration="194000" />
-      <workItem from="1701152828253" duration="3191000" />
-      <workItem from="1701156080522" duration="7124000" />
-      <workItem from="1701164501729" duration="5445000" />
-      <workItem from="1701187450505" duration="325000" />
-      <workItem from="1701239188589" duration="10589000" />
-      <workItem from="1701251664661" duration="1261000" />
-      <workItem from="1701253860111" duration="714000" />
-      <workItem from="1701273707698" duration="328000" />
-      <workItem from="1701333273309" duration="1124000" />
-      <workItem from="1701417306270" duration="1673000" />
+      <updated>1701421637186</updated>
+      <workItem from="1701421641077" duration="75000" />
     </task>
-    <task id="LOCAL-00001" summary="init commit">
-      <option name="closed" value="true" />
-      <created>1700809827246</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1700809827246</updated>
-    </task>
-    <task id="LOCAL-00002" summary="init commit">
-      <option name="closed" value="true" />
-      <created>1700809976263</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1700809976263</updated>
-    </task>
-    <task id="LOCAL-00003" summary="header, redux, service, interface,">
-      <option name="closed" value="true" />
-      <created>1701070913399</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1701070913399</updated>
-    </task>
-    <task id="LOCAL-00004" summary="movies">
-      <option name="closed" value="true" />
-      <created>1701073511923</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1701073511923</updated>
-    </task>
-    <task id="LOCAL-00005" summary="movies movie css">
-      <option name="closed" value="true" />
-      <created>1701074957417</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1701074957417</updated>
-    </task>
-    <task id="LOCAL-00006" summary="paginator, button, cssButton">
-      <option name="closed" value="true" />
-      <created>1701075674019</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1701075674019</updated>
-    </task>
-    <task id="LOCAL-00007" summary="genre">
-      <option name="closed" value="true" />
-      <created>1701083157144</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1701083157144</updated>
-    </task>
-    <task id="LOCAL-00008" summary="genres navigata &#10;genres style&#10;movie Details">
-      <option name="closed" value="true" />
-      <created>1701164080716</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1701164080716</updated>
-    </task>
-    <task id="LOCAL-00009" summary="switcher them">
-      <option name="closed" value="true" />
-      <created>1701165823720</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1701165823720</updated>
-    </task>
-    <task id="LOCAL-00010" summary="switcher">
-      <option name="closed" value="true" />
-      <created>1701169404028</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1701169404028</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Search infoMovieGenre css style">
-      <option name="closed" value="true" />
-      <created>1701249781390</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1701249781391</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Search infoMovieGenre css style">
-      <option name="closed" value="true" />
-      <created>1701253964866</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1701253964866</updated>
-    </task>
-    <task id="LOCAL-00013" summary="fix moviesSlice.ts">
-      <option name="closed" value="true" />
-      <created>1701334395511</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1701334395512</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="init commit" />
-    <MESSAGE value="header, redux, service, interface," />
-    <MESSAGE value="movies" />
-    <MESSAGE value="movies movie css" />
-    <MESSAGE value="paginator, button, cssButton" />
-    <MESSAGE value="genre" />
-    <MESSAGE value="genres navigata &#10;genres style&#10;movie Details" />
-    <MESSAGE value="switcher them" />
-    <MESSAGE value="switcher" />
-    <MESSAGE value="Search infoMovieGenre css style" />
-    <MESSAGE value="fix moviesSlice.ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix moviesSlice.ts" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
