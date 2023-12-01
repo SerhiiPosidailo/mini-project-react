@@ -1,9 +1,10 @@
 import React from 'react';
-import {useAppSelector} from "../../../hooks/reduxHooks";
 import {Rating} from "react-simple-star-rating";
+
+import {useAppSelector} from "../../../hooks";
 import css from "./movieInfo.module.css"
-import {urls} from "../../../constants/urls";
-import {MovieInfoGenre} from "../../GenresContainer/MovieInfoGenre/MovieInfoGenre";
+import {urls} from "../../../constants";
+import {MovieInfoGenre} from "../../GenresContainer";
 
 const MovieInfo = () => {
 

@@ -4,3 +4,7 @@
     border-radius: 20px;
     width: 9vw;
 }
+
+.Nav a {
+    text-decoration: none;
+}

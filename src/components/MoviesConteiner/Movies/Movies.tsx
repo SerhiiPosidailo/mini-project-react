@@ -1,9 +1,10 @@
 import React, {FC, PropsWithChildren} from 'react';
-import {IMovie} from "../../../interface/interfaceMovies";
 import {SetURLSearchParams} from "react-router-dom";
-import {Movie} from "../Movie/movie";
+
+import {IMovie} from "../../../interface";
+import {Movie} from "../Movie";
 import css from "./Movies.module.css"
-import {useAppSelector} from "../../../hooks/reduxHooks";
+import {useAppSelector} from "../../../hooks";
 
 interface IProps extends PropsWithChildren {
     movies: IMovie[]

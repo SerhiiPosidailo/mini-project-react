@@ -1,8 +1,9 @@
 import React, {useEffect} from 'react';
-import {MovieInfo} from "../components/MoviesConteiner/movieInfo/movieInfo";
 import {useParams} from "react-router-dom";
-import {useAppDispatch, useAppSelector} from "../hooks/reduxHooks";
-import {moviesActions} from "../redux/slices/moviesSlice";
+
+import {MovieInfo} from "../components";
+import {useAppDispatch, useAppSelector} from "../hooks";
+import {moviesActions} from "../redux";
 
 const MovieInfoPage = () => {
 

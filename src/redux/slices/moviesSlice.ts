@@ -1,10 +1,10 @@
 import {createAsyncThunk, createSlice, isFulfilled} from "@reduxjs/toolkit";
-import {IMovie, IMovies} from "../../interface/interfaceMovies";
 import {AxiosError} from "axios";
-import {moviesService} from "../../service/moviesService";
-import {IGanre, IGanres} from "../../interface/interfaceGanre";
-import {genresService} from "../../service/genreServica";
-import {movieInfoService} from "../../service/moviesInfoService";
+
+import {IGanre, IGanres, IMovie, IMovies} from "../../interface";
+import {genresService, movieInfoService, moviesService} from "../../service";
+
+
 
 interface IState {
     total_pages: number,

@@ -1,7 +1,8 @@
 import React, {FC} from 'react';
-import {IGanre} from "../../../interface/interfaceGanre";
-import css from "./Genre.module.css"
 import {useNavigate} from "react-router-dom";
+
+import {IGanre} from "../../../interface";
+import css from "./Genre.module.css"
 
 
 interface IProps {

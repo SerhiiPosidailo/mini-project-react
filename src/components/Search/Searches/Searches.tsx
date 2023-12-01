@@ -1,9 +1,10 @@
 import React, {useEffect} from 'react';
 import {useSearchParams} from "react-router-dom";
-import {useAppDispatch, useAppSelector} from "../../../hooks/reduxHooks";
-import {moviesActions} from "../../../redux/slices/moviesSlice";
-import {SearchForm} from "../../SearchForm/SearchForm";
-import {Search} from "../Search/Search";
+
+import {useAppDispatch, useAppSelector} from "../../../hooks";
+import {moviesActions} from "../../../redux";
+import {SearchForm} from "../../SearchForm";
+import {Search} from "../Search";
 import css from "./Searches.module.css"
 
 const Searches = () => {

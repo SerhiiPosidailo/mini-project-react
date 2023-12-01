@@ -1,8 +1,8 @@
-import {IRes} from "../types/IResType";
-import {IGanre, IGanres} from "../interface/interfaceGanre";
+import {IRes} from "../types";
+import {IGanre, IGanres, IMovies} from "../interface";
 import {apiService} from "./apiService";
-import {urls} from "../constants/urls";
-import {IMovies} from "../interface/interfaceMovies";
+import {urls} from "../constants";
+
 
 
 const genresService ={

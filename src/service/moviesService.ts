@@ -1,7 +1,7 @@
-import {IRes} from "../types/IResType";
-import {IMovies} from "../interface/interfaceMovies";
+import {IRes} from "../types";
+import {IMovies} from "../interface";
 import {apiService} from "./apiService";
-import {urls} from "../constants/urls";
+import {urls} from "../constants";
 
 const moviesService = {
     getAll:(page:string):IRes<IMovies> => apiService.get(urls.movies, {params:{page}}),

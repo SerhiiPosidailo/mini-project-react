@@ -1,8 +1,9 @@
 import React, {FC, PropsWithChildren} from 'react';
-import {IMovie} from "../../../interface/interfaceMovies";
 import {SetURLSearchParams} from "react-router-dom";
+
+import {IMovie} from "../../../interface";
 import css from "../../MoviesConteiner/Movies/Movies.module.css";
-import {MovieByGenre} from "../MovieByGenre/MovieByGenre";
+import {MovieByGenre} from "../MovieByGenre";
 
 interface IProps extends PropsWithChildren {
     movies: IMovie[]

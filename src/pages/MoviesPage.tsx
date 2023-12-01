@@ -1,8 +1,9 @@
 import React, {useEffect} from 'react';
 import {useSearchParams} from "react-router-dom";
-import {useAppDispatch, useAppSelector} from "../hooks/reduxHooks";
-import {moviesActions} from "../redux/slices/moviesSlice";
-import {Movies} from "../components/MoviesConteiner/Movies/Movies";
+
+import {useAppDispatch, useAppSelector} from "../hooks";
+import {moviesActions} from "../redux";
+import {Movies} from "../components";
 
 const MoviesPage: React.FC = () => {
     const [query, setQuery] = useSearchParams({page: '1'});

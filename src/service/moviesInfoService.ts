@@ -1,7 +1,7 @@
 import {apiService} from "./apiService";
-import {IRes} from "../types/IResType";
-import {IMovie} from "../interface/interfaceMovies";
-import {urls} from "../constants/urls";
+import {IRes} from "../types";
+import {IMovie} from "../interface";
+import {urls} from "../constants";
 
 
 const movieInfoService = {

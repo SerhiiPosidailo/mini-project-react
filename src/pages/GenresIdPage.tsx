@@ -1,8 +1,9 @@
 import React, {useEffect} from 'react';
 import {useParams, useSearchParams} from "react-router-dom";
-import {useAppDispatch, useAppSelector} from "../hooks/reduxHooks";
-import {moviesActions} from "../redux/slices/moviesSlice";
-import {MoviesByGenres} from "../components/MovieByGenre/MoviesByGenres/MoviesByGenres";
+
+import {useAppDispatch, useAppSelector} from "../hooks";
+import {moviesActions} from "../redux";
+import {MoviesByGenres} from "../components";
 
 const GenresIdPage = () => {
 

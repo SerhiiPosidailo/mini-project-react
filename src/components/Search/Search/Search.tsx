@@ -1,8 +1,9 @@
 import React, {FC} from 'react';
 import {useNavigate} from "react-router-dom";
-import {IMovie} from "../../../interface/interfaceMovies";
 import {Rating} from "react-simple-star-rating";
-import {urls} from "../../../constants/urls";
+
+import {IMovie} from "../../../interface";
+import {urls} from "../../../constants";
 import css from "./Search.module.css"
 
 interface IProps{

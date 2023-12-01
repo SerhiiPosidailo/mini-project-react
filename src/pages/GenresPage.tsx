@@ -1,7 +1,8 @@
 import React, {useEffect} from 'react';
-import {useAppDispatch, useAppSelector} from "../hooks/reduxHooks";
-import {Genres} from "../components/GenresContainer/Genres/Genres";
-import {moviesActions} from "../redux/slices/moviesSlice";
+
+import {useAppDispatch} from "../hooks";
+import {Genres} from "../components";
+import {moviesActions} from "../redux";
 
 const GenresPage = () => {
 

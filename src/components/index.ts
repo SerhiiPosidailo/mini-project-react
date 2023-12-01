@@ -1,0 +1,6 @@
+export * from "./Search"
+export * from "./SearchForm"
+export * from "./Header"
+export * from "./MovieByGenre"
+export * from "./GenresContainer"
+export * from "./MoviesConteiner"
